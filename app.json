@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "NOVA Santé",
+    "slug": "suivi-poids",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "suivi-poids",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#071328",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "themeColor": "#071328"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
