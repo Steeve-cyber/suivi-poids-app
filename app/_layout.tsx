@@ -3,6 +3,7 @@ import { Tabs } from 'expo-router';
 import { Activity, Droplets, Scale, UserRound } from 'lucide-react-native';
 import { StatusBar } from 'expo-status-bar';
 
+
 // Définition directe des couleurs
 const C = {
   background: '#0B132B',
@@ -27,7 +28,7 @@ export default function Layout() {
             paddingBottom: 8,
             backgroundColor: C.background,
             borderTopWidth: 1,
-            borderTopColor: C.border,
+            borderTopColor: C.subtle,
             elevation: 0,
           },
         }}
