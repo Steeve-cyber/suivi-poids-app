@@ -2,7 +2,13 @@ import React from 'react';
 import { Tabs } from 'expo-router';
 import { Activity, Droplets, Scale, UserRound } from 'lucide-react-native';
 import { StatusBar } from 'expo-status-bar';
-import { C } from '../components/ui';
+
+// Définition directe des couleurs
+const C = {
+  background: '#0B132B',
+  mint: '#48E5C2',
+  subtle: '#5C6B73',
+};
 
 export default function Layout() {
   return (
